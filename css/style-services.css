@@ -1,0 +1,158 @@
+#overview {
+  background: linear-gradient(to right, #2F2C3F 0%, #4A465C 40%, #6A667A 70%, #8A879A 100%);
+  background-size: cover;
+  padding: 70px 0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+#overview h2 {
+  padding-bottom: 20px;
+  line-height: 33px;
+  margin: 0 0 20px 0;
+  font-size: 30px;
+}
+#overview p {
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+#overview .divider {
+  width: 40px;
+  height: 2px;
+  background-color: #DDDDDD;
+  margin: 15px auto;
+}
+
+#q-and-a-agent {
+  text-align: center;
+  padding: 90px 0;
+}
+#q-and-a-agent .title h2 {
+  padding-bottom: 20px;
+  line-height: 33px;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 550;
+}
+#q-and-a-agent .title p {
+  font-size: 14px;
+  line-height: 1.6;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+#q-and-a-agent .agent-card {
+  max-width: 800px;
+  width: 100%;
+  margin: 40px auto 0;
+}
+#q-and-a-agent .agent-frame {
+  max-width: 800px;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #CCCCCC;
+  border: 2px solid #000;  /*  border: none; TODO */
+  border-radius: 12px;
+}
+#q-and-a-agent a {
+  color: #000000;
+  text-decoration: underline;
+}
+#q-and-a-agent a:hover {
+  color: #000000;
+}
+
+#more-sevices {
+  background: linear-gradient(to left, #2F2C3F 0%, #4A465C 40%, #6A667A 70%, #8A879A 100%);
+  background-size: cover;
+  padding-top: 35px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#more-sevices h2 {
+  padding-bottom: 20px;
+  line-height: 33px;
+  margin: 0;
+  font-size: 30px;
+}
+#more-sevices p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+#more-sevices .service-card {
+  background: #ffffff;
+  padding: 30px 40px;
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  height: 100%;
+  margin-top: 40px;
+}
+
+#more-sevices .service-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #2F2C3F;
+}
+
+#more-sevices .service-card .subtitle {
+  color: #777777;
+  margin-bottom: 30px;
+}
+
+#more-sevices .service-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+#more-sevices .service-card ul li {
+  margin-bottom: 12px;
+  color: #444;
+}
+#more-sevices .service-card .feature-list{
+  list-style:none;
+  padding:0;
+  margin:28px auto 34px;
+  max-width: 360px;
+  text-align:left;
+}
+#more-sevices .service-card .feature-list li{
+  display:flex;
+  align-items:flex-start;
+  gap:10px;
+  margin:12px 0;
+}
+#more-sevices .service-card .check-icon{
+  width:18px;
+  height:18px;
+  margin-top:2px;
+  color:#2F2B3A;
+  flex: 0 0 18px;
+}
+#more-sevices .button {
+  width: 120px;
+  display: inline-block;
+  padding: 12px 28px;
+  border: 2px solid #2F2C3F;
+  border-radius: 6px;
+  color: #2F2C3F;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+#more-sevices .button:hover {
+  width: 120px;
+  background: #2F2C3F;
+  color: #FFFFFF;
+}
+#more-sevices .collaboration {
+  margin-top: 40px;
+}
+#more-sevices a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+#more-sevices a:hover {
+  color: #FFFFFF;
+}

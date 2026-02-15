@@ -1,0 +1,115 @@
+#overview {
+  background: linear-gradient(to right, #2F2C3F 0%, #4A465C 40%, #6A667A 70%, #8A879A 100%);
+  background-size: cover;
+  padding: 70px 0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+#overview h2 {
+  padding-bottom: 20px;
+  line-height: 33px;
+  margin: 0 0 20px 0;
+  font-size: 30px;
+}
+#overview p {
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+#overview .divider {
+  width: 40px;
+  height: 2px;
+  background-color: #DDDDDD;
+  margin: 15px auto;
+}
+
+#cases {
+  min-height: 880px;
+  padding: 90px 0;
+}
+#cases p {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #2F2C3F;
+  display: block;
+  border-radius: 12px;
+}
+#cases p:hover {
+  cursor:pointer;
+  background: #2F2C3F;
+  color: #FFFFFF;
+}
+
+#cases .portfolio {
+  width: 100%;
+  margin: 20px;
+}
+#cases .tile {
+  min-height: 100px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: #8A879A;
+  border-radius: 12px;
+}
+#cases .tile h1 {
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+#cases .tile p {
+  color: #222222;
+  font-size: 12px;
+  text-align: justify;
+  line-height: 1.6;
+  pointer-events: none;
+}
+#cases .tile h2 {
+  font-size: 14px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: -10px;
+}
+#cases .tile h3 {
+  font-size: 12px;
+  text-align: center;
+  background: #FFFFFF;
+  border-radius: 6px;
+  padding: 5px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#more-cases {
+  background: linear-gradient(to left, #2F2C3F 0%, #4A465C 40%, #6A667A 70%, #8A879A 100%);
+  background-size: cover;
+  padding: 70px 0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+#more-cases h2 {
+  padding-bottom: 20px;
+  line-height: 33px;
+  margin: 0;
+  font-size: 30px;
+}
+#more-cases p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+#more-cases a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+#more-cases a:hover {
+  color: #FFFFFF;
+}

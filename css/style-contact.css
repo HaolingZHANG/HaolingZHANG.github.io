@@ -1,0 +1,63 @@
+#contact-header {
+  background: linear-gradient(to right, #2F2C3F 0%, #4A465C 40%, #6A667A 70%, #8A879A 100%);
+  background-size: cover;
+  padding: 70px 0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+#contact-header h2 {
+  padding-bottom: 20px;
+  line-height: 33px;
+  margin: 0 0 20px 0;
+  font-size: 30px;
+}
+#contact-header p {
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+#contact-header a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+#contact-header a:hover {
+  color: #FFFFFF;
+}
+
+#contact-form {
+  padding: 70px 20px 20px;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+
+#contact-form .contact-wrapper {
+  width: 100%;
+  max-width: 900px;
+}
+#contact-form iframe {
+  width: 100%;
+  height: 1500px;
+  border: 0;
+}
+
+#addition {
+  background: linear-gradient(to left, #2F2C3F 0%, #4A465C 40%, #6A667A 70%, #8A879A 100%);
+  background-size: cover;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+  color: #fff;
+}
+#addition .p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+#addition a {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+#addition a:hover {
+  color: #FFFFFF;
+}

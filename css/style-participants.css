@@ -1,0 +1,99 @@
+#overview {
+  background: linear-gradient(to right, #2F2C3F 0%, #4A465C 40%, #6A667A 70%, #8A879A 100%);
+  background-size: cover;
+  padding: 70px 0;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+#overview h2 {
+  padding-bottom: 20px;
+  line-height: 33px;
+  margin: 0 0 20px 0;
+  font-size: 30px;
+}
+#overview p {
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+#overview .divider {
+  width: 40px;
+  height: 2px;
+  background-color: #DDDDDD;
+  margin: 15px auto;
+}
+
+#members {
+  text-align: center;
+  padding: 90px 0;
+}
+
+#members h2 {
+  padding-bottom: 20px;
+  line-height: 33px;
+  margin: 0;
+  font-size: 30px;
+  font-weight: 550;
+}
+#members p {
+  font-size: 18px;
+  line-height: 1.0;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+#members .divider {
+  width: 180px;
+  height: 2px;
+  background-color: #AAAAAA;
+  margin: 10px auto 40px;
+}
+#members .member-item {
+  padding-bottom: 30px;
+}
+#members .member-item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+#members .member-item .member-name {
+  padding-top: 20px;
+  margin: 0;
+  color: #666;
+  font-size: 15px;
+}
+#members .member-item .member-role {
+  color: #888;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.5;
+}
+#members .member-item .member-affiliation {
+  color: #888;
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+#institutions {
+  background: linear-gradient(to left, #2F2C3F 0%, #4A465C 40%, #6A667A 70%, #8A879A 100%);
+  background-size: cover;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+#institutions h2 {
+  padding-bottom: 20px;
+  line-height: 33px;
+  margin: 0;
+  font-size: 30px;
+}
+
+#institutions img {
+  margin-top: 40px;
+  height: 80px;
+  width: auto;
+}

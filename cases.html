@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="An initiative focused on improving research software disclosure practices.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Software as Evidence</title>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="img/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/icons/favicon-64x64.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/icons/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style-header.css">
+    <link rel="stylesheet" href="css/style-cases.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function() {
+
+        // noinspection ES6ConvertVarToLetConst
+        var selectedClass = "";
+
+          $("p").click(function(){
+
+              selectedClass = $(this).attr("data-rel");
+
+          $("#portfolio").fadeTo(100, 0.1);
+
+          $("#portfolio div").not("."+selectedClass).fadeOut();
+
+          setTimeout(function() {
+            $("."+selectedClass).fadeIn();
+            $("#portfolio").fadeTo(500, 1);
+          }, 500);
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html" aria-label="Home">
+          <img src="img/logo.svg" alt="Logo">
+        </a>
+        <nav class="desktop-nav" aria-label="Primary">
+          <a href="services.html">Services</a>
+          <a href="cases.html">Cases</a>
+          <a href="participants.html">Participants</a>
+          <a href="history.html">History</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <button type="button"
+                class="menu-btn collapsed"
+                data-toggle="collapse"
+                data-target="#mobile-nav"
+                aria-expanded="false">
+          <span class="label-text">Menu</span>
+        </button>
+      </div>
+      <div id="mobile-nav" class="collapse mobile-nav">
+        <div class="mobile-nav-inner">
+          <a href="services.html">Services</a>
+          <a href="cases.html">Cases</a>
+          <a href="participants.html">Participants</a>
+          <a href="history.html">History</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <section id="overview">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+                <h2>
+                  Are there any successful implementation examples?
+                </h2>
+                <p>
+                  We have collected peer-reviewed implementation cases from different fields
+                  that align with the principles advocated by the initiative for your reference.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cases">
+      <div class="container">
+         <div class="row">
+          <div class="col-md-12">
+            <div class="col-sm-6 col-md-12">
+              <p href="" data-rel="all">All</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="col-sm-6 col-md-3">
+              <p href="" data-rel="fom">Formal Sciences</p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <p data-rel="phy">Physical Sciences</p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <p data-rel="bio">Biological Sciences</p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <p data-rel="soc">Social sciences</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div style="clear:both;"></div>
+            <div id="portfolio">
+              <div class="col-sm-6 col-md-12 tile bio all">
+                <h1>
+                  SPIDER-WEB enables a real-time data retrieval of DNA-based data storage
+                </h1>
+                <p>
+                  Data retrieval efficiency remains one of the key challenges hindering the practical application
+                  of DNA-based data storage, being at least five orders of magnitude lower than
+                  that of compact discs introduced in the last century.
+                  Here, we introduce SPIDER-WEB, a new all-in-one coding framework that
+                  eliminates the need for time-consuming sequence clustering and alignment steps
+                  in conventional pipelines,
+                  allowing data processing to proceed concurrently with the sequencing process.
+                  Using 3,000 synthesized data coding DNA sequences for validation,
+                  SPIDER-WEB demonstrated a retrieval efficiency improvement of at least two orders of magnitude
+                  (587 to 9,083-fold) over conventional methods.
+                  Projections for megabyte and exabyte-scale retrievals show even greater gains,
+                  with efficiency enhancements of 3.0-3.2 and 24.0-29.7 orders of magnitude, respectively.
+                  By integrating nanopore sequencing, SPIDER-WEB successfully retrieved a 19,200-byte file
+                  in a non-blocking manner within just 100 seconds on a standard laptop.
+                  Overall, our results demonstrate that SPIDER-WEB enables real-time data retrieval
+                  and supports the expansion of practical application scenarios for DNA-based data storage.
+                </p>
+                <h2>Publication</h2>
+                <h3>
+                  <a href="">
+                    <em>Nature</em>
+                  </a>
+                </h3>
+                <h2>Source code</h2>
+                <h3>
+                  <a href="">GitHub</a>
+                </h3>
+                <h2>Source data</h2>
+                <h3>
+                  <a href="">figshare</a>
+                </h3>
+                <h2>Development experience</h2>
+                <h3>
+                  <a href="">TODO</a>
+                </h3>
+              </div>
+              <div class="col-sm-6 col-md-12 tile fom all">
+                <h1>
+                  Leveraging network motifs to improve artificial neural networks
+                </h1>
+                <p>
+                  As the scale of artificial neural networks continues to expand to
+                  tackle increasingly complex tasks or improve the prediction accuracy of specific tasks,
+                  the challenges associated with computational demand, hyper-parameter tuning,
+                  model interpretability, and deployment costs intensify.
+                  Addressing these challenges requires a deeper understanding of how network structures
+                  influence network performance. Here, we analyse 882,000 motifs to reveal the functional roles
+                  of incoherent and coherent three-node motifs in shaping overall network performance.
+                  Our findings reveal that incoherent loops exhibit superior representational capacity
+                  and numerical stability, whereas coherent loops show a distinct preference for high-gradient
+                  regions within the output landscape. By avoiding such gradient pursuit, incoherent loops
+                  sustain more stable adaptation and consequently greater robustness.
+                  This mechanism is evident in 97,240 fixed-network training experiments,
+                  where coherent-loop networks consistently prioritized high-gradient regions during learning,
+                  and is further supported by noise-resilience analyses – from classical reinforcement learning tasks
+                  to biological, chemical, and medical applications – which demonstrate that incoherent-loop networks
+                  maintain stronger resistance to training noise and environmental perturbations.
+                  This work shows the functional impact of structural motif differences on the performance of
+                  artificial neural networks, offering foundational insights for
+                  designing more resilient and accurate networks.
+                </p>
+                <h2>Publication</h2>
+                <h3>
+                  <a href="https://www.nature.com/articles/s41467-025-66533-x">
+                    <em>Nature Communications</em>
+                  </a>
+                </h3>
+                <h2>Source code</h2>
+                <h3>
+                  <a href="https://github.com/HaolingZHANG/MotifEffect">GitHub</a>
+                </h3>
+                <h2>Source data</h2>
+                <h3>
+                  <a href="https://doi.org/10.6084/m9.figshare.30405208">figshare</a>
+                  and
+                  <a href="https://doi.org/10.25781/KAUST-D0WBH">KAUST Research Repository</a>
+                </h3>
+                <h2>Development experience</h2>
+                <h3>
+                  <a href="">TODO</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="more-cases">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <h2>
+                Interested in sharing your case?
+              </h2>
+              <p>
+                If your peer-reviewed case aligns with the principles of the initiative
+                and you would like to share it with a broader audience,
+                please do not hesitate to
+                <a href="contact.html">contact us</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
