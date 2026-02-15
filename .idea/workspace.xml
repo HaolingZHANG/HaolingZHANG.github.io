@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9d59d07-5d07-420b-9936-ca3abf0f4fbd" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/history.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="39XKcuepMA0KThVINUWEMRNPLL8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/software-engineering/EOP/Code/HaolingZHANG.github.io/js&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software-engineering\EOP\Code\HaolingZHANG.github.io\js" />
+      <recent name="D:\software-engineering\EOP\Code\HaolingZHANG.github.io\img" />
+      <recent name="D:\software-engineering\EOP\Code\HaolingZHANG.github.io\img\default" />
+      <recent name="D:\software-engineering\EOP\Code\HaolingZHANG.github.io\img\signs" />
+      <recent name="D:\software-engineering\EOP\Code\HaolingZHANG.github.io" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\software-engineering\EOP\Code\HaolingZHANG.github.io\img\default" />
+      <recent name="D:\software-engineering\EOP\Code\HaolingZHANG.github.io\js" />
+      <recent name="D:\software-engineering\EOP\Code\HaolingZHANG.github.io\img\icons" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c9d59d07-5d07-420b-9936-ca3abf0f4fbd" name="更改" comment="" />
+      <created>1770837057920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1770837057920</updated>
+      <workItem from="1770837059077" duration="3759000" />
+      <workItem from="1770876125143" duration="3464000" />
+      <workItem from="1770887656115" duration="12707000" />
+      <workItem from="1770907816580" duration="11016000" />
+      <workItem from="1770967843792" duration="15349000" />
+      <workItem from="1770990169479" duration="11695000" />
+      <workItem from="1771057145545" duration="744000" />
+      <workItem from="1771060602336" duration="1032000" />
+      <workItem from="1771064529028" duration="9867000" />
+      <workItem from="1771086693685" duration="14029000" />
+      <workItem from="1771133280667" duration="3685000" />
+      <workItem from="1771138455470" duration="10151000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
