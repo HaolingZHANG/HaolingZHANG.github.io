@@ -44,7 +44,9 @@
 #q-and-a-agent .agent-card {
   max-width: 800px;
   width: 100%;
-  margin: 40px auto 0;
+  padding: 0 40px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 #q-and-a-agent .agent-frame {
   max-width: 800px;
