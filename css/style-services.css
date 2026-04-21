@@ -44,24 +44,10 @@
 #q-and-a-agent .agent-card {
   max-width: 800px;
   width: 100%;
-  padding: 0 40px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
-#q-and-a-agent .agent-frame {
-  max-width: 800px;
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  background: #CCCCCC;
-  border: 2px solid #000;
-  border-radius: 12px;
-}
-#q-and-a-agent a {
-  color: #000000;
-  text-decoration: underline;
-}
-#q-and-a-agent a:hover {
-  color: #000000;
+#q-and-a-agent iframe {
+  border: none;
 }
 
 #more-sevices {
