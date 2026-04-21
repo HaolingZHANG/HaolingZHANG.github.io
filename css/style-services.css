@@ -48,6 +48,8 @@
 }
 #q-and-a-agent iframe {
   border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 #more-sevices {
